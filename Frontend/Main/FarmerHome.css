@@ -1,0 +1,103 @@
+
+/* Basic container style for the form */
+.farmer-home {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.farmerhome-nav{
+    height: 70px;
+    background-color: #4CAF50;
+     
+
+}
+.fname{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.logout{
+    position: relative;
+    margin-left: 90%;
+    margin-top: -43px;
+    color: white;
+}
+
+/* Input field styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Placeholder text style */
+input::placeholder {
+    color: #999;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Input field for better focus styling */
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Label styling */
+label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Style for error messages or alerts */
+.alert {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Adding a responsive design */
+/* @media screen and (max-width: 600px) {
+    div {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    input, button {
+        font-size: 14px;
+    }
+} */

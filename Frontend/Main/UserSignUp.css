@@ -1,0 +1,64 @@
+/* body{
+    background-image: url('https://png.pngtree.com/background/20230416/original/pngtree-cute-fruit-illustration-picture-image_2443417.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+ .user-signup-body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-farmer-harvest-festival-wheat-field-hand-drawn-fresh-background-backgroundfresh-backgroundhand-image_72066.jpg');
+ }
+
+/* Styling for the main heading */
+.user-logo {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Container styling */
+.user-signup {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Label styling */
+.user-signup label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input field styling */
+.user-signup input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+.user-signup input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.user-signup-body{
+    
+    background-image: url('https://png.pngtree.com/background/20230416/original/pngtree-cute-fruit-illustration-picture-image_2443417.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+   
+}

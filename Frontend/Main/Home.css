@@ -1,0 +1,161 @@
+/* Home.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-color: rgb(218, 241, 162);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-left: -10px;
+    color: red;
+}
+
+marquee {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:red;
+}
+
+/* Reviews Section */
+.reviews-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.reviews-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.review-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-image: linear-gradient(skyblue,pink);
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.review-info h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.review-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Health Benefits Section */
+.health-benefits {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+
+    
+}
+
+.health-benefits h2 {
+    font-size: 2rem;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+.health-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.health-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-image: linear-gradient(skyblue,pink);
+}
+
+.health-card:hover {
+    transform: translateY(-5px);
+}
+
+.health-card img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.health-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.health-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+.homefooter {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+.homefooter p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+.health-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+   
+}

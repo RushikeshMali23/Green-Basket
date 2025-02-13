@@ -1,0 +1,199 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* userhome-body styling */
+.userhome-body {
+    background-color: #f5f5f5;
+    text-align: center;
+    /* background-image: linear-gradient(rgb(226, 176, 177),pink); */
+}
+
+/* homenavbar Styling */
+.userhomenavbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0775f3;
+    color: white;                                             
+    padding: 15px 20px;
+}
+
+.userlogo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+}
+
+.navlinks li {
+    margin: 0 15px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.navlinks a:hover {
+    text-decoration: none;
+}
+
+/* Filters */
+.filter{
+    margin:15px auto ;
+}
+.filter button{
+    margin-left: 10px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(247, 7, 15);
+    color: white;
+    font-size: large;
+    margin-top: -2px;
+}
+
+/* Cart Icon */
+.cart {
+    font-weight: bold;
+}
+
+/* Mobile Menu (Hidden by Default) */
+.menu-toggle {
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Cards Container */
+.cardscontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px; 
+    padding: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Card Styling */
+.card {
+    background: white;
+    background-image: linear-gradient(rgb(136, 136, 240),rgb(255, 191, 201));
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 155px; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2d89ef;
+    margin: 10px 0;
+}
+
+#weight{
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+
+/* Button Styling */
+.cart-btn {
+    display: inline-block;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.cart-btn:hover {
+    background-color: #218838;
+}
+
+/* Purchase Button Styling */
+.purchase {
+    background-color: #ff4500;
+    margin-left: 10px;
+}
+
+.purchase:hover {
+    background-color: #e03e00;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .cardscontainer {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on tablets */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cardscontainer {
+        grid-template-columns: repeat(1, 1fr); /* 1 card per row on mobile */
+    }
+
+    .navlinks {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #2d89ef;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navlinks.active {
+        display: flex;
+    }
+
+    .navlinks li {
+        margin: 15px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .footer {
+        padding: 20px;
+        background-color: #4CAF50;
+        color: rgb(206, 162, 162);
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,107 @@
+/* Base reset */
+/* .signin-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://wallpaperaccess.com/full/3493336.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+} */
+
+
+.farmer-signin-body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-farmer-harvest-festival-wheat-field-hand-drawn-fresh-background-backgroundfresh-backgroundhand-image_72066.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+    margin-top: -100px;
+}
+.signin-card{
+    margin: 50px auto;
+}
+
+.signin-card h1{
+    margin: 15px auto 
+}
+
+/* Centering the form container */
+#box1 {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Styling the heading */
+h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Styling form elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Styling the button */
+button {
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+    #box1 {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    button {
+        font-size: 12px;
+    }
+    #pre{
+        text-decoration: none;
+    }
+    
+}

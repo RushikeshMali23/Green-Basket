@@ -1,0 +1,89 @@
+
+
+/* .user-signin-body {
+   
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-farmer-harvest-festival-wheat-field-hand-drawn-fresh-background-backgroundfresh-backgroundhand-image_72066.jpg');
+} */
+/* body{
+    background-image: url('https://png.pngtree.com/background/20230416/original/pngtree-cute-fruit-illustration-picture-image_2443417.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+
+#user-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    margin: 50px auto;
+}
+
+.u-signin-label, .label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#usup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#usup a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#usup a:hover {
+    text-decoration: underline;
+}
+.user-signin-body{
+    background-image: url('https://png.pngtree.com/background/20230416/original/pngtree-cute-fruit-illustration-picture-image_2443417.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.h1{
+    color: #333;
+    position: relative;
+    right: 300px;
+    
+}
